@@ -11,7 +11,7 @@ int main (){
 
     for(int i=0; i<filas; i++){
         for(int j=0; j<columnas; j++){
-            cout<<"["<<i<<"]["<<j<<"Ingresa un digito: "
+            cout<<"["<<i<<"]["<<j<<"Ingresa un digito: ";
         }
     }
 

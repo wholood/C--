@@ -8,7 +8,7 @@ llenarla de números aleatorios, copiar el contenido a otra matriz y por último
 using namespace std;
 
 int main (){
-    int x, y;
+    int x, y; // Valores de filas y columnas
     srand(time(NULL));//Generamos el numero aleatorio
 
     cout<<"Ingrese la cantidad de filas que tendrá la matriz: "; cin>>x;

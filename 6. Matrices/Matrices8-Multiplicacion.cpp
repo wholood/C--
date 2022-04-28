@@ -1,4 +1,20 @@
-//Realice un programa que calcule el producto de dos matrices cuadradas de 3x3.
+/*Realice un programa que calcule el producto de dos matrices cuadradas de 3x3.
+Se basa en la multiplicación de cada elemento 0 de A fila y B columna + cada elemento 1 de A fila y B Columna
+y cada elemento 2 de A fila y B columna
+
+C[0][0]= (A[0][0]*B[0][0]) + (A[0][1]*B[1][0]) + (A[0][2]*B[2][0])
+C[0][1]= (A[0][0]*B[1][0]) + (A[0][1]*B[1][1]) + (A[0][2]*B[1][2])
+.
+.
+C[1][1]= (A[1][0]*B[0][1]) + (A[1][1]*B[1][1]) + (A[1][2]*B[2][1])
+.
+.
+C[2][0]= (A[2][0]*B[0][0]) + (A[2][1]*B[1][0]) + (A[2][2]*B[2][0])
+.
+.
+C[2][2]= (A[2][0]*B[0][2]) + (A[2][1]*B[1][2]) + (A[2][2]*B[2][2])
+
+*/
 
 #include <iostream>
 #include <conio.h>

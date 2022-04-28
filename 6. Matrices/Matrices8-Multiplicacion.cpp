@@ -56,9 +56,9 @@ int main (){
     for(int fila=0; fila<3; fila++){ //El primer bucle corresponde a las filas
         for(int columna=0; columna<3; columna++){ //El segundo a las columnas
            for(int selector=0; selector<3; selector++){ //El tercero itinera como selector del elemento a multiplicar
-            multi += a[fila][selector]*b[selector][columna]; 
-            //Multiplicamos el elemento seleccionado de la fila de A por el elemento seleccionado de la columna de B
-            //Sumamos las 3 multiplicaciones de selecciones ejecutadas.
+                multi += a[fila][selector]*b[selector][columna]; 
+                //Multiplicamos el elemento seleccionado de la fila de A por el elemento seleccionado de la columna de B
+                //Sumamos las 3 multiplicaciones de selecciones ejecutadas.
             }
             c [fila][columna]= multi;//Asignamos la suma de multiplicaciones a la matriz resultante
             multi = 0; //Limpiamos la variable

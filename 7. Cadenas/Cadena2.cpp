@@ -1,19 +1,25 @@
-//Longitud de cadenas y la funcion strlen(VARIABLE)
+/*Programa que pida al usuario una cadena de caracteres, verificar la longitud y 
+si esta supera a 10 caracteres mostrarla en pantalla, en caso contrario no mostrarla*/
 
 #include <iostream>
-#include <conio.h>
+#include <stdlib.h>
 #include <string.h>
 
 using namespace std;
 
 int main (){
-    char palabra[] = "Hola";
-    int longitud=0; //la funcion strlen() devuelve un valor entero
+    char cadena[1000];
 
-    longitud = strlen(palabra);
-    // esta funcion guardará la extension en la variable de asignacion
-    cout<<"El numero de elementos de la cadena es "<<longitud<<endl;
-    
-    getch();
+    cout<<"Ingrese su cadena: ";
+    gets(cadena);
+
+    if(strlen(cadena)>10){
+        cout<<cadena<<endl;
+    }
+    else{
+        cout<<"Su cadena no supera el minimo de caracteres";
+    }
+
+    system("Pause");
     return 0;
 }
